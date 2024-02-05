@@ -28,6 +28,8 @@ resource "aws_db_instance" "default2new" {
   vpc_security_group_ids = [aws_security_group.sg.id]
   db_subnet_group_name = aws_db_subnet_group.example2new12.name
 
+  multi_az              = true
+
   
   
 }
