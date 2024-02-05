@@ -1,6 +1,6 @@
-resource "aws_db_instance" "default1" {
+resource "aws_db_instance" "default1new" {
   allocated_storage    = 10
-  db_name              = "mydb"
+  db_name              = "mydbnew"
   engine               = "mysql"
   engine_version       = "5.7"
   instance_class       = "db.t3.micro"
@@ -15,9 +15,9 @@ resource "aws_db_instance" "default1" {
   
 }
 
-resource "aws_db_instance" "default2" {
+resource "aws_db_instance" "default2new" {
   allocated_storage    = 10
-  db_name              = "mydb1"
+  db_name              = "mydb1new"
   engine               = "mysql"
   engine_version       = "5.7"
   instance_class       = "db.t3.micro"
