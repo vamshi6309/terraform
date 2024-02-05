@@ -1,7 +1,7 @@
 resource "aws_vpc" "devops" {
 cidr_block = "191.0.0.0/16"
 tags = {
-Name = "vpc-new-12"
+Name = "vpc-new-1"
 }
 }
 
