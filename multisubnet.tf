@@ -1,4 +1,4 @@
-resource "aws_db_subnet_group" "example1" {
+resource "aws_db_subnet_group" "example1new" {
   name       =  "my-db-subnet-group"
   description = "My DB subnet group"
   subnet_ids = [
@@ -8,7 +8,7 @@ resource "aws_db_subnet_group" "example1" {
   ]
 }
 
-resource "aws_db_subnet_group" "example2" {
+resource "aws_db_subnet_group" "example2new" {
   name       =  "my-db-subnet-group1"
   description = "My DB subnet group"
   subnet_ids = [
